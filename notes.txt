@@ -1,0 +1,21 @@
+15 line Madani Mushaf
+
+First 2 pages has only 8 lines
+Other pages has 15 lines
+
+All pages has one additional line (virtual line to know what is the end of last line)
+
+Line data is array as you see,
+   if its length is 1 only like [1] it represents the surah name header.
+   if its length is 2 only like [2,0] it represents basmallah.
+   if its length is 3 it represents normal line like [1,1,0]   - [surah_no, ayah_no, 0_based_word_index]
+
+ so [1] means surah name header for al fatiha
+ [2,0] means basmallah for surah al baqarah
+ [2,1,0] means first line of al baqarah which starts with ayah 1 with word index 0
+
+
+[]
+[]
+[1, 3, 1] # line 3, line 3 has whole ayah 3, 4, then first two words of ayah 5
+[1, 5, 2] # line 4 starts from 3rd word of ayah 5
