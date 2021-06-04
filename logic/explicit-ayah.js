@@ -16,11 +16,7 @@ const getWordsPositions = (key, lines, totalWords) => {
     const [, , currentWordIndex] = currentLine
 
     // Ayat detected in this line, but it starts from previous line
-    if (
-      currentLineKey === key &&
-      prevLineKey !== key &&
-      currentWordIndex !== 0
-    ) {
+    if ( currentLineKey === key && prevLineKey !== key && currentWordIndex !== 0 ) {
       const prevLineNumber = currentLineNumber - 1
       data = [...data, ...genArray(currentWordIndex, prevLineNumber)]
     }
