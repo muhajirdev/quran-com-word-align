@@ -19,6 +19,7 @@ yarn test:watch
 ## Files
 
 - `total-words.json` -> this is a helper data to help us identify how many words in a specific verse. We can use quran.com api later for a production use case. This is just make things simple for now
+- `total-ayah-surah.json` a map of surah -> total ayah. We need this to handle corner case where a surah end in the middle of a page. And it ends with an implicit ayah / short ayah
 
 ## How it works
 
