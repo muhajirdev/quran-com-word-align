@@ -18,7 +18,7 @@ yarn test:watch
 
 ## Files
 
-- total-words.json -> this is a helper file to help us identify how many words in a specific verse. We can use quran.com api later for a production use case. This is just make things simple for now
+- `total-words.json` -> this is a helper file to help us identify how many words in a specific verse. We can use quran.com api later for a production use case. This is just make things simple for now
 
 ## How it works
 
