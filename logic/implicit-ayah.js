@@ -18,6 +18,8 @@ const getWordsPositions = (key, lines, totalWords) => {
     return result
   })
 
+  if (lineNumber === -1) return []
+
   return genArray(totalWords, lineNumber)
 }
 
