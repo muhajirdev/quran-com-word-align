@@ -27,7 +27,7 @@ yarn test:watch
 
 ### Each ayah is devided into 2 category:
 
-- Explicit Ayah => This is the ayah that's explicitly mentioned in the lines for example [1,5,0] => This means surah `1` and ayah `5` is explicitly mentioned in `page-ayah.json`
+- Explicit Ayah => This is the ayah that's explicitly mentioned in the lines for example `[1,5,0]` => This means surah `1` and ayah `5` is explicitly mentioned in `page-ayah.json`. So `1:5` is an explicit ayah
 - Implicit Ayah => This is like `1:4` surah 1 ayah 4, it's not mentioned, it's skipped in `page-ayah.json`. The ayah is there, but implicit
 
 Implicit ayah is usually a short ayah. So it never made it to the beginning of the line
