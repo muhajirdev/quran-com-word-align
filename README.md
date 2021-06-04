@@ -64,4 +64,4 @@ The cons:
 
 There are some optimization for this in functional programming community, like caching, etc. 
 
-If the performance in certain part of the backend / operation becomes very critical. It's a could be a good idea, to make it mutable or even use faster language like Golang
+If the performance in certain part of the backend / operation becomes very critical. It could be a good idea, to make it mutable or even use faster language like Golang
