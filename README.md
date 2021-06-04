@@ -49,7 +49,7 @@ If it's found. We just record their positions and their total words in the curre
 
 ## Approach
 
-The code is mostly written in functional paradigm, although is 100% pure.
+The code is mostly written in functional paradigm, although it is not 100% pure.
 
 The benefits of this approach 
 - is the code is very easy to test. 
