@@ -33,6 +33,8 @@ const getAllKeys = (lines) => {
 
   const keys = surahs.map((surah) => generateKeys(surah, lines))
 
+  // as noted in notes.txt, there's a virtual line at the end of each page. 
+  // So, we remove that
   return removeLastItem(flatten(keys))
 }
 

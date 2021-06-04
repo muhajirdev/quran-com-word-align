@@ -4,6 +4,7 @@ const { genArray } = require('./utils')
 const getWordsPositions = (key, lines, totalWords) => {
   // mutable
   let data = []
+  // we could actually makes this more functional and more pure. But this is already practical enough
 
   lines.reduce((currentLine, nextLine, index) => {
     const prevLine = lines[index - 2]
