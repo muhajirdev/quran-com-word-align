@@ -62,6 +62,6 @@ The cons:
 - Performance, writing the code in functional paradigm, could sometimes be slower, because sometimes the loop and executed multiples times,
 - it could also take more memory, because it doesn't favor immutable instead of mutating the variable
 
-There are some optimization for this in functional programming community, like caching, etc. 
+There are some optimization for this in functional programming community, like caching, memoization, etc. 
 
 If the performance in certain part of the backend / operation becomes very critical. It could be a good idea, to make it mutable or even use faster language like Golang
